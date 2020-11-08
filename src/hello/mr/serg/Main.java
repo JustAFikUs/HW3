@@ -40,7 +40,7 @@ public class Main {
 
     }
 
-    //Ввод числа с ограничениями
+
     public static int getNumberFromScanner(String message, int min, int max) {
         int x;
         do {
@@ -49,7 +49,7 @@ public class Main {
         } while (x < min || x > max);
         return x;
     }
-    //Генерация случайного числа
+
     public static int randomNumberGenerator () {
         Random rand = new Random();
         int RandNum;
